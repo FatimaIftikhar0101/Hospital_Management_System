@@ -17,7 +17,7 @@ from package.undergoes import Undergoess, Undergoes
 import json
 import os
 
-os.system("pip install torch==1.12.1")
+#os.system("pip install torch==1.12.1")
 
 with open('config.json') as data_file:
     config = json.load(data_file)
